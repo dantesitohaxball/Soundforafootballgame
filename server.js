@@ -1,7 +1,7 @@
 const http = require("http");
 const { WebSocketServer } = require("ws");
 
-const SECRET = process.env.SFX_SECRET || "cambiar_esto";
+const SECRET = process.env.SFX_TOKEN || "cambiar_esto";
 const PORT   = process.env.PORT || 3000;
 
 const CORS_HEADERS = {
